@@ -2,6 +2,24 @@
 
 巻鯖(makisaba)は､ Webブラウザからの観測を含め､ 各種のプロセスとの交信を記述します｡
 
+
+# ローカルへのインストール(?)
+
+```
+# clone this repository
+git clone https://github.com/FreecivJapan/makisaba
+
+# clone submodule and maybe link to newest ID(?)
+# (How to update a submodule version to latest ? -- https://github.com/tj/git-extras/pull/80)
+git pull --recurse-submodules
+git submodule update --remote --recursive
+
+# push because of report newest version of submodule(?)
+git push origin master
+
+```
+
+
 # 仮設常設鯖
 
 maki (i-makinori) による､仮設の常設鯖
