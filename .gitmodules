@@ -1,0 +1,3 @@
+[submodule "remodels-scripts"]
+	path = remodels-scripts
+	url = https://github.com/FreecivJapan/remodels-scripts
